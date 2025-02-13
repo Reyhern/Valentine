@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentine's Day ❤️</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+<body>
+    <div class="container">
+        <h1>Happy Valentine's Day, Honey! ❤️</h1>
+        <p>You are my greatest adventure, my forever love. Thank you for every moment we share. 💕</p>
+        
+        <div class="timeline">
+            <div class="event" data-images="images/photo1.jpg,images/photo2.jpg" data-song="love_song.mp3">
+                <h2>✨ The Day We Met ✨</h2>
+                <p>The moment our eyes met, my world changed forever.</p>
+            </div>
+            <div class="event" data-images="images/photo3.jpg,images/photo4.jpg" data-song="song2.mp3">
+                <h2>❤️ Our First Date ❤️</h2>
+                <p>That unforgettable evening filled with laughter and magic.</p>
+            </div>
+            <div class="event" data-images="images/photo5.jpg,images/photo6.jpg" data-song="song3.mp3">
+                <h2>💍 The Special Moment 💍</h2>
+                <p>The day we promised forever to each other.</p>
+            </div>
+        </div>
+        
+        <div class="gallery">
+            <h2>Our Beautiful Memories 📸</h2>
+            <div class="gallery-images" id="galleryContainer">
+                <!-- Images will be inserted here by JavaScript -->
+            </div>
+           <!-- <img src="images/photo7.jpg" alt="Memory 1">
+            <img src="images/photo8.jpg" alt="Memory 2">
+            <img src="images/photo3.jpg" alt="Memory 3"> -->
+        </div>
+        
+        <div class="playlist">
+            <h2>Our Love Song 🎶</h2>
+            <audio id="audioPlayer" controls>
+                <source src="love_song.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <div id="playlistQueue"></div>
+        </div>
+        
+        <button class="surprise-btn" onclick="showSurprise()">Click for a Surprise 🎁</button>
+    </div>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
